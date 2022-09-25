@@ -62,7 +62,8 @@ body {
 .button {
     width: auto;
     height: 10%;
-    background: rgba(23, 23, 23, 90%);
+    background: rgba(19, 17, 33, 90%);
+    border: 2px solid rgb(2 241 255 / 80%);
     color: white;
     margin: auto;
     position: relative;
@@ -70,7 +71,7 @@ body {
     margin-top: 0.5rem;
     overflow: hidden;
     padding: 0.45rem;
-    border-radius: 0.15rem;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     box-shadow: 0rem 0rem 0.5rem 0.05rem #000000;
@@ -85,7 +86,7 @@ body {
 }
 
 .button:hover {
-    background-color: #dc143c;
+    background: rgb(2 241 255 / 80%);
 }
 
 .title {
